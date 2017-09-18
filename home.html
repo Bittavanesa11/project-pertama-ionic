@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+     <font color="blue">PKL 2017</font>	 <br>
+	<font color="black" Size="2">STMIK AKAKOM YOGYAKARTA</font> 
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+	<div  body style="background-color:picture;">
+ <font color="BLUE" text Align="center"><marquee><b>SMK Negeri 1 Kebumen</b></marquee></font>
+ <br>
+
+  </div>
+  <ion-card>
+  <ion-item>
+    <ion-label color="primary" stacked>Username</ion-label>
+    <ion-input type="text" [(ngModel)]="Username" [value]="Username"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" stacked>Password</ion-label>
+    <ion-input type="Password" [(ngModel)]="Password" [value]="Password"></ion-input>
+  </ion-item>
+<button ion-button block (click)='showalert();'> Login</button>
+	
+  </ion-card>
+
+<ion-chip>
+  <ion-icon name="heart" color="danger"></ion-icon>
+  <ion-label>vanesya_ita07</ion-label>
+</ion-chip>
+<ion-chip>
+  <ion-icon name="pin"></ion-icon>
+  <ion-label>Daerah istimewa yogyakarta</ion-label>
+</ion-chip>
+  <p>
+    
+  </p>
+  
+</ion-content>
